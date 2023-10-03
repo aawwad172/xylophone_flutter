@@ -6,7 +6,7 @@ void main() {
 }
 
 class XylophoneApp extends StatelessWidget {
-  const XylophoneApp({super.key, Key? key});
+  const XylophoneApp({super.key, Key? key1});
 
   void playSound(int? soundNumber) {
     final player = AudioPlayer(); // Initialize the player here
